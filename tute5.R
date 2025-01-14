@@ -7,7 +7,6 @@ cat("Probability of waiting time greater than 45 min is: ",p_greater_45,"\n")
 p_20_to_30 = punif(30, 0, 60) - punif(20, 0, 60)
 cat("Probability of 20 to 30 waiting time: ",p_20_to_30)
 #----------------------  Q2    ----------------------------------------------------
-    #----------------------  a   ----------------------------------------------------
 lambda = 1/2
 rate = 3
 d_3 = dexp(rate, lambda)
